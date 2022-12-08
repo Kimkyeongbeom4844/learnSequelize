@@ -1,0 +1,30 @@
+{
+  "name": "seqelize",
+  "version": "1.0.0",
+  "description": "JS의 ORM인 sequelize를 연습하는 repo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kimkyeongbeom4844/learnSequelize.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kimkyeongbeom4844/learnSequelize/issues"
+  },
+  "homepage": "https://github.com/Kimkyeongbeom4844/learnSequelize#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.26.0",
+    "sequelize-cli": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
